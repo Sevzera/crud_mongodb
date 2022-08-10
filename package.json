@@ -1,0 +1,20 @@
+{
+	"name": "crud-mongodb",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "server.js",
+	"scripts": {
+		"start": "node ./src/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.1",
+		"mongodb": "^4.5.0"
+	}
+}
