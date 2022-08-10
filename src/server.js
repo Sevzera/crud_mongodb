@@ -4,7 +4,6 @@ import { MongoClient } from "mongodb";
 import * as data from "./dataControllers.js";
 
 dotenv.config();
-console.log(process.env.DB_URL);
 MongoClient.connect(process.env.DB_URL)
 	.then((client) => {
 		// DATABASE CONNECTION & SETUP
