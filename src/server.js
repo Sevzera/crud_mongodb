@@ -13,7 +13,7 @@ MongoClient.connect(process.env.DB_URL)
 		const objectCollection = db.collection("objectCollection");
 		// SERVER
 		const server = createServer((req, res) => {
-			const { headers, method, url } = req;
+			const { method, url } = req;
 			// GET
 			if (method === "GET") {
 				if (url.match(/\/get\/?$/)) {
