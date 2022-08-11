@@ -11,4 +11,4 @@ Projeto simples que implementa um servidor back-end e realiza a conexão com um 
 EXECUÇÃO:
 - Atribuir valor para *DB_URL*
 - Instalar o projeto [*npm install*]
-- Executar o projeto [*npm run start*]
+- Executar o projeto [*npm start*]
